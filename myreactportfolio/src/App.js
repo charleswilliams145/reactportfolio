@@ -2,21 +2,22 @@ import React from 'react';
 import './App.css';
 import {Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
-import Main from './componet/main';
+import Main from './component/main';
+
 function App() {
   return (<div className="demo-big-content">
   <Layout>
-      <Header title="Title" scroll>
+      <Header title="Charles' Portfolio" scroll>
           <Navigation>
-              <Link to="/about">About Me</Link>
+              <Link to="/aboutMe">About Me</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
           </Navigation>
       </Header>
-      <Drawer title="Title">
+      <Drawer title="Charles Williams' Portfolio">
           <Navigation>
-              <Link to="/about">About Me</Link>
+              <Link to="/aboutMe">About Me</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
